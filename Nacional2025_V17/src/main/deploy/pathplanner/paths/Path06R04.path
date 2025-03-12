@@ -1,0 +1,71 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.5723360655737704,
+        "y": 2.652407786885245
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.3053769509378594,
+        "y": 2.5076002983213677
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 0.9230532786885245,
+        "y": 1.0340676229508199
+      },
+      "prevControl": {
+        "x": 2.120389282175033,
+        "y": 1.847869074207772
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 1.0,
+      "rotationDegrees": 54.0
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "Repouso",
+      "waypointRelativePos": 0.0,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Repouso"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": true
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": 54.0
+  },
+  "reversed": false,
+  "folder": "Path6",
+  "idealStartingState": {
+    "velocity": 5.0,
+    "rotation": 59.99999999999999
+  },
+  "useDefaultConstraints": true
+}

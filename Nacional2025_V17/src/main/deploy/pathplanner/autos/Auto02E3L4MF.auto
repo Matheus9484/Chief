@@ -1,0 +1,133 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Path02E1FrontMiddle"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlinharD20"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Pontuar"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Repouso"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Path02E2Front"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Recolher"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Path02E3Front"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlinharD19"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Pontuar"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Repouso"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Path02E4Front"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Recolher"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Path02E5Front"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlinharE19"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Pontuar"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "AutoE2Front",
+  "choreoAuto": false
+}

@@ -1,0 +1,80 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.94875,
+        "y": 5.234
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 4.286419448488918,
+        "y": 4.951864539065785
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.365,
+        "y": 7.184
+      },
+      "prevControl": {
+        "x": 2.9935436919042386,
+        "y": 6.007487342442705
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.23325062034739455,
+      "maxWaypointRelativePos": 0.5369727047146263,
+      "constraints": {
+        "maxVelocity": 1.0,
+        "maxAcceleration": 3.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "Repouso",
+      "waypointRelativePos": 0.23325062034739455,
+      "endWaypointRelativePos": 0.5846153846153844,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Repouso"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -54.162347045721745
+  },
+  "reversed": false,
+  "folder": "PathsE2",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -58.56999999999999
+  },
+  "useDefaultConstraints": true
+}

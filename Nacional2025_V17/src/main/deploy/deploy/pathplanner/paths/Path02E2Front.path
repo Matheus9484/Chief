@@ -1,0 +1,80 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.00175,
+        "y": 5.3315
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.5966839486884217,
+        "y": 6.178219041991788
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.3747500000000001,
+        "y": 7.2132499999999995
+      },
+      "prevControl": {
+        "x": 1.577039040582921,
+        "y": 7.066351585917201
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.5053941908713662,
+      "rotationDegrees": -30.456937846891144
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.6461538461538281,
+      "maxWaypointRelativePos": 0.8029776674937734,
+      "constraints": {
+        "maxVelocity": 1.0,
+        "maxAcceleration": 3.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "Repouso",
+      "waypointRelativePos": 0.5885856079404265,
+      "endWaypointRelativePos": 0.8228287841190839,
+      "command": null
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -49.398705354995585
+  },
+  "reversed": false,
+  "folder": "PathsE2",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -120.964
+  },
+  "useDefaultConstraints": true
+}
