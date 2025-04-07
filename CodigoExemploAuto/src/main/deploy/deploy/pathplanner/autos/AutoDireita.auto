@@ -1,0 +1,97 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Path06R01Middle"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlinharE22"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.4
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Pontuar"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Path06R02"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.8
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Recolher"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Path06R03"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AlinharE17"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.4
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Pontuar"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Path06R04"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.8
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Recolher"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "AutoE6Front",
+  "choreoAuto": false
+}
